@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CurlUtil", "CurlUtil\CurlUtil.vcxproj", "{B900A583-30C6-45FC-A481-244A2CC20930}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CurlTest", "..\CurlTest\CurlTest\CurlTest.vcxproj", "{2D6A3FDF-A8D8-41C9-95AC-80900EDBF871}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B900A583-30C6-45FC-A481-244A2CC20930} = {B900A583-30C6-45FC-A481-244A2CC20930}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B900A583-30C6-45FC-A481-244A2CC20930}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B900A583-30C6-45FC-A481-244A2CC20930}.Debug|Win32.Build.0 = Debug|Win32
+		{B900A583-30C6-45FC-A481-244A2CC20930}.Release|Win32.ActiveCfg = Release|Win32
+		{B900A583-30C6-45FC-A481-244A2CC20930}.Release|Win32.Build.0 = Release|Win32
+		{2D6A3FDF-A8D8-41C9-95AC-80900EDBF871}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D6A3FDF-A8D8-41C9-95AC-80900EDBF871}.Debug|Win32.Build.0 = Debug|Win32
+		{2D6A3FDF-A8D8-41C9-95AC-80900EDBF871}.Release|Win32.ActiveCfg = Release|Win32
+		{2D6A3FDF-A8D8-41C9-95AC-80900EDBF871}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

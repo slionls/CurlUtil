@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{6858458a-d7bd-402a-984a-d2075ff64ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\curl">
+      <UniqueIdentifier>{608b3134-2b0e-4735-807d-6b6b1817022e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\pthread">
+      <UniqueIdentifier>{09ec8af2-12d6-44cd-b85b-7daf7b4fbfc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="download">
+      <UniqueIdentifier>{000a5342-00c4-4246-a53f-ca607007a8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{48803ed7-280c-4109-a572-206187fb8212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GET">
+      <UniqueIdentifier>{71dada9d-1fbf-4d7b-92c6-ca5dfc04ee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="POST">
+      <UniqueIdentifier>{dcafb158-2e72-449b-b6cf-0e50b596fa47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{cf5b7593-e94a-4a5d-a89e-de2ec720555e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParseHtml">
+      <UniqueIdentifier>{5dab3c44-fe1b-4a56-a4bd-b060c5a991ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\curl.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\curlbuild.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\curlrules.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\curlver.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\easy.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\mprintf.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\multi.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\stdcheaders.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\curl\typecheck-gcc.h">
+      <Filter>common\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pthread\pthread.h">
+      <Filter>common\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pthread\sched.h">
+      <Filter>common\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pthread\semaphore.h">
+      <Filter>common\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\util\tools.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlDown.h">
+      <Filter>download</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadManagerBase.h">
+      <Filter>download</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlGET.h">
+      <Filter>GET</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlPost.h">
+      <Filter>POST</Filter>
+    </ClInclude>
+    <ClInclude Include="CurlFTP.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlAnalyzer.h">
+      <Filter>ParseHtml</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlHelper.h">
+      <Filter>ParseHtml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\util\tools.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlDown.cpp">
+      <Filter>download</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadManagerBase.cpp">
+      <Filter>download</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlGET.cpp">
+      <Filter>GET</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlPost.cpp">
+      <Filter>POST</Filter>
+    </ClCompile>
+    <ClCompile Include="CurlFTP.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlAnalyzer.cpp">
+      <Filter>ParseHtml</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlHelper.cpp">
+      <Filter>ParseHtml</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
